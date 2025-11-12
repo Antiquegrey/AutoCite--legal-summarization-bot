@@ -1,0 +1,30 @@
+# ---- Python / FastAPI backend ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+.env/
+.DS_Store
+
+# ---- Frontend (React / Vite) ----
+node_modules/
+dist/
+build/
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ---- System files ----
+*.swp
+*.swo
+*.bak
+
+# ---- Eval data (optional) ----
+eval/tmp_*
+eval/*.log
