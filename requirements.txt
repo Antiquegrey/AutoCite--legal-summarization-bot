@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-multipart
+pypdf
+python-docx
+passlib[bcrypt]
+python-jose[cryptography]
+fastapi-cors
+httpx
+requests
