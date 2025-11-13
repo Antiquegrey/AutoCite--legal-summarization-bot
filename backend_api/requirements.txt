@@ -1,11 +1,19 @@
 fastapi
 uvicorn
 pydantic
+sqlalchemy
+python-multipart
 requests
+jinja2
+
+# ML & utilities
 joblib
 scikit-learn
-python-multipart
-jinja2
+
+# Google GenAI (and dependencies)
 google-generativeai==0.5.3
 google-api-core
 google-auth
+
+# OPTIONAL but often needed
+httpx
