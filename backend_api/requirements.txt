@@ -5,15 +5,16 @@ sqlalchemy
 python-multipart
 requests
 jinja2
-
-# ML & utilities
 joblib
 scikit-learn
 
-# Google GenAI (and dependencies)
+# Google GenAI
 google-generativeai==0.5.3
 google-api-core
 google-auth
 
-# OPTIONAL but often needed
-httpx
+# JWT support
+python-jose[cryptography]
+
+passlib[bcrypt]
+
